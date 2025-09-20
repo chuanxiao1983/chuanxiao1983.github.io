@@ -1,6 +1,253 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chuan Xiao — Homepage</title>
+  <meta name="description" content="Homepage of Chuan Xiao (Associate Professor, Osaka University / Guest Associate Professor, Nagoya University)">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/publications.css">
+  <style>
+    :root { --accent:#0033cc; }
+    html,body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;}
+    .nav-link{font-weight:600}
+    .hero{padding:64px 0;background:linear-gradient(180deg,#f7fafc,transparent)}
+    .name{font-size:clamp(28px,4vw,40px);font-weight:800;letter-spacing:.2px}
+    .title{font-size:clamp(16px,2vw,20px);color:#445}
+    .chip{display:inline-block;background:#eef3ff;color:#204; padding:.25rem .55rem;border-radius:999px;margin:.2rem .25rem;font-size:.9rem}
+    .section-title{font-weight:800; font-size:clamp(22px,3vw,28px); margin-bottom:.5rem}
+    .subtle{color:#5a6470}
+    .card{border-radius:16px}
+    a{color:var(--accent)}
+    .anchor-offset { scroll-margin-top: 80px; }
+    .footer{border-top:1px solid #e9ecef; padding:32px 0; color:#6c757d}
+    .news li{margin-bottom:.35rem}
+    .list-tight li{margin-bottom:.25rem}
+    .pill{border:1px solid #dee2e6; padding:.25rem .5rem; border-radius:999px; font-size:.85rem}
+  </style>
+</head>
 <body>
-<p>Under Construction~</p>
+  <!-- Hero / Home -->
+  <header id="home" class="hero anchor-offset">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-7">
+		  <img src="./assets/img/avatar.jpg" alt="avatar" />
+          <div class="name">Chuan XIAO</div>
+          <div class="title mb-3">Associate Professor, Osaka University · Guest Associate Professor, Nagoya University</div>
+		  <p></p>
+		  <div class="pill"><strong>Email:</strong> chuanx [at] nagoya-u.jp</div>
+		  <p></p>
+          <div class="mt-3">
+            <a class="pill me-2" href="https://dblp.org/pid/57/4384-1" target="_blank" rel="noopener">DBLP</a>
+            <a class="pill" href="https://scholar.google.com/citations?user=15bmyOkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Biography -->
+  <section id="biography" class="py-5 anchor-offset">
+    <div class="container">
+      <h2 class="section-title">Research Interests</h2>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Education</h3>
+              <ul class="list-tight">
+                <li>Agent-Based Modeling</li>
+                <li>Computational Social Science</li>
+                <li>Multi-Agent Systems</li>
+				<li>Foundation Models</li>
+                <li>Data Management</li>
+                <li>Data Science</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      <h2 class="section-title">Biography</h2>
+      <p class="subtle">I am an associate professor with the <a href="https://www-bigdata.ist.osaka-u.ac.jp/" target="_blank" rel="noopener">Big Data Engineering Laboratory at Osaka University</a> and a guest associate professor with the <a href="https://www.db.is.i.nagoya-u.ac.jp/" target="_blank" rel="noopener">Database Laboratory at Nagoya University</a>. I received my Ph.D. from the University of New South Wales in 2010 under the supervision of Xuemin Lin and Wei Wang.</p>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Education</h3>
+              <ul class="list-tight">
+                <li>Ph.D., Computer Science & Engineering — UNSW, Australia (2007–2010)</li>
+                <li>B.E., Computer Science & Engineering — Northeastern University, China (2001–2005)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Professional Experience</h3>
+              <ul class="list-tight">
+                <li>04/2021–present — Associate Professor, Osaka University / Guest Associate Professor, Nagoya University</li>
+                <li>04/2019–03/2021 — Specially Appointed Associate Professor, Osaka University / Guest Associate Professor, Nagoya University</li>
+                <li>03/2014–03/2019 — Designated Assistant Professor, Nagoya University</li>
+                <li>10/2011–02/2014 — Postdoc Research Associate, Nagoya University</li>
+                <li>09/2010–09/2011 — Postdoc Research Fellow, University of New South Wales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-4 mt-1">
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Supervision (selected)</h3>
+              <p class="mb-1"><em>Current</em></p>
+              <ul class="list-tight">
+                <li>Xuyang Cao (PhD), Osaka University</li>
+                <li>Mengkun Gao (PhD), Osaka University</li>
+                <li>Song Que (Master), Osaka University</li>
+                <li>Rei Taniguchi (Master), Osaka University</li>
+                <li>Ryosuke Mizui (Master), Osaka University</li>
+                <li><a href="https://zichuanxu.github.io/" target="_blank" rel="noopener">Zichuan Xu</a> (Master), Osaka University</li>
+                <li>Yuzhou Jin (Master), Osaka University</li>
+              </ul>
+              <p class="mb-1"><em>Graduated (recent)</em></p>
+              <ul class="list-tight">
+                <li>Ryoga Yoshida (Master, 2025), Osaka University</li>
+                <li>Haochen Zhang (Master, 2025), Osaka University</li>
+                <li>Yuto Ikeda (Master, 2024), Osaka University</li>
+                <li>Zhongqing Jiang (Master, 2024), Osaka University</li>
+                <li>Samrat Thapa (Bachelor, 2024), Osaka University</li>
+                <li><a href="https://wuzengqing001225.github.io/" target="_blank" rel="noopener">Zengqing Wu</a> (Bachelor, 2023), Osaka University</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card shadow-sm h-100">
+            <div class="card-body">
+              <h3 class="h5 fw-bold">Professional Activities (selected)</h3>
+              <ul class="list-tight">
+                <li>PC Chair: SFDI 2020, ADMA 2025</li>
+                <li>PC Vice Chair: IEEE BigData 2023, DASFAA 2024</li>
+                <li>Track Chair: SoiCT 2017, APWeb-WAIM 2024, ADC 2024</li>
+                <li>International Relationship Chair: iDB 2012</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section id="research" class="py-5 bg-light anchor-offset">
+    <div class="container">
+      <h2 class="section-title">Research</h2>
+      <p class="subtle">Selected current topics and representative publications.</p>
+
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold mb-1">Smart Agent-Based Modeling (SABM)</h3>
+              <p class="mb-2">Using foundation-model agents (LLMs/VLMs) to formulate simulations in natural language and study phenomena across economics and behavioral science.</p>
+              <ul class="list-tight">
+                <li><a href="https://arxiv.org/abs/2406.07878" target="_blank" rel="noopener">LLM-Based Social Simulations Require a Boundary</a></li>
+                <li><a href="https://arxiv.org/abs/2408.01340" target="_blank" rel="noopener">Seven Security Challenges in Cross-domain Multi-agent LLM Systems</a></li>
+                <li><a href="https://arxiv.org/abs/2402.12327" target="_blank" rel="noopener">Shall We Team Up: Spontaneous Cooperation of Competing LLM Agents (EMNLP 2024 Findings)</a> · <a href="https://github.com/wuzengqing001225/SABM_ShallWeTalk" target="_blank" rel="noopener">Code</a></li>
+                <li><a href="https://arxiv.org/abs/2311.07357" target="_blank" rel="noopener">Smart Agent‑Based Modeling</a> · <a href="https://drive.google.com/" target="_blank" rel="noopener">Slides</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold mb-1">Data Lake Management & Data Preprocessing</h3>
+              <p class="mb-2">Leveraging LLMs for table understanding, data cleaning, integration, and augmentation in large data lakes.</p>
+              <ul class="list-tight">
+                <li><a href="https://dongyuyang.github.io/tutorials/cikm2024-llm-table/" target="_blank" rel="noopener">On the Use of LLMs for Table Tasks (CIKM 2024 Tutorial)</a></li>
+                <li><a href="https://arxiv.org/abs/2408.08310" target="_blank" rel="noopener">Jellyfish: A Large Language Model for Data Preprocessing (EMNLP 2024)</a> · <a href="https://huggingface.co/collections/ist-osaka/jellyfish-llm-66c9c5d28f550b3931af7f6a" target="_blank" rel="noopener">Models & Dataset</a></li>
+                <li><a href="https://arxiv.org/abs/2403.07660" target="_blank" rel="noopener">Large Language Models as Data Preprocessors (TaDA 2024)</a></li>
+                <li><a href="https://arxiv.org/abs/2308.04103" target="_blank" rel="noopener">BClean: A Bayesian Data Cleaning System (ICDE 2024)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold mb-1">Similarity Query Processing</h3>
+              <p class="mb-2">Efficient methods for high‑dimensional ANN/MIPS, sets, strings, and generic similarity operations.</p>
+              <ul class="list-tight">
+                <li><a href="https://arxiv.org/abs/2406.17873" target="_blank" rel="noopener">Probabilistic Routing for Graph‑based ANNS (ICML 2024)</a></li>
+                <li><a href="https://arxiv.org/abs/1808.05350" target="_blank" rel="noopener">Pigeonring: Faster Thresholded Similarity Search (PVLDB 2018)</a></li>
+                <li><a href="https://arxiv.org/abs/2005.05924" target="_blank" rel="noopener">Monotonic Cardinality Estimation of Similarity Selection (SIGMOD 2020)</a></li>
+                <li><a href="https://arxiv.org/abs/2007.05797" target="_blank" rel="noopener">High‑Dimensional Similarity Query Processing for Data Science (KDD 2021 Tutorial)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h3 class="h5 fw-bold mb-1">Data Science for Digital Humanities</h3>
+              <p class="mb-2">Computational approaches in sociology, law, education, and history through data‑centric methods.</p>
+              <ul class="list-tight">
+                <li><a href="#" onclick="return false;">Legal Fact Prediction (EMNLP 2025)</a></li>
+                <li><a href="#" onclick="return false;">Information entropy in programming education (ToE)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications (link out) -->
+  <section id="publications" class="py-5 anchor-offset">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+      <p>For a complete and up‑to‑date list, see the <a href="https://sites.google.com/site/chuanxiao1983/publication" target="_blank" rel="noopener">Publications</a> page or my <a href="https://dblp.org/pid/57/4384-1" target="_blank" rel="noopener">DBLP entry</a>.</p>
+      <ul class="list-tight">
+        <li><strong>Jellyfish:</strong> A Large Language Model for Data Preprocessing. EMNLP 2024. <a href="https://arxiv.org/abs/2408.08310" target="_blank" rel="noopener">paper</a> · <a href="https://huggingface.co/collections/ist-osaka/jellyfish-llm-66c9c5d28f550b3931af7f6a" target="_blank" rel="noopener">models/dataset</a></li>
+        <li><strong>Smart Agent‑Based Modeling:</strong> On the Use of Large Language Models in Computer Simulations. <a href="https://arxiv.org/abs/2311.07357" target="_blank" rel="noopener">paper</a></li>
+        <li><strong>Probabilistic Routing</strong> for Graph‑Based ANNS. ICML 2024. <a href="https://arxiv.org/abs/2406.17873" target="_blank" rel="noopener">paper</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Resources (optional quick links) -->
+  <section id="resources" class="py-5 bg-light anchor-offset">
+    <div class="container">
+      <h2 class="section-title">Resources</h2>
+      <ul class="list-tight">
+        <li>SABM case studies: number‑guessing, emergency evacuation, plea bargain, Bertrand competition</li>
+        <li>Spontaneous cooperation: Keynesian beauty contest, Bertrand competition, emergency evacuation</li>
+        <li>Smart Agent Survey (SAS): <a href="https://github.com/wuzengqing001225/SmartAgentSurvey" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <div>© <span id="y"></span> Chuan Xiao</div>
+      <div class="subtle">Last updated: <span id="updated"></span></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const d = new Date(document.lastModified);
+    document.getElementById('updated').textContent = d.toLocaleDateString(undefined, {year:'numeric', month:'short', day:'2-digit'});
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

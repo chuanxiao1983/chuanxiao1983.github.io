@@ -1,3 +1,7 @@
+/* URL color */
+a:link {
+  color: teal;
+}
 /* cyrillic-ext */
 @font-face {
   font-family: 'Inter';

@@ -1,6 +1,10 @@
-/* URL color */
+/* URL */
 a:link {
-  color: teal;
+  color: #2D7DC2;
+  text-decoration: none
+}
+a:visited {
+  color: #2D7DC2;
 }
 /* cyrillic-ext */
 @font-face {
